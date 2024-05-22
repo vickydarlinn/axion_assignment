@@ -1,14 +1,11 @@
 import { Routes, Route } from "react-router-dom";
 import HomePage from "./screens/homePage";
 import SingleProductPage from "./screens/singleProductPage";
+import Layout from "./layout";
+import Header from "./components/header";
 
 const App = () => {
-  return (
-    <Routes>
-      <Route index element={<HomePage />} />
-      <Route path="/:id" element={<SingleProductPage />} />
-    </Routes>
-  );
+  return <Header />;
 };
 
 export default App;
