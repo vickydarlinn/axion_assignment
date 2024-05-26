@@ -13,8 +13,16 @@
 .menubar svg {
   cursor: pointer;
 }
+.cart {
+  position: relative;
+  padding: 0 4px;
+}
 .cart_amount {
-  display: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translate(100%, -50%);
+  /* display: none; */
 }
 .nav_links {
   display: flex;

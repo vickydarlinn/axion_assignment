@@ -9,7 +9,9 @@ import { ProductsContext } from "./Context.jsx";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
-      <ChakraProvider>
+      <ChakraProvider
+        toastOptions={{ defaultOptions: { position: "top-right" } }}
+      >
         <ProductsContext>
           <App />
         </ProductsContext>

@@ -3,7 +3,7 @@ import { Image, useDisclosure } from "@chakra-ui/react";
 import { FaRegUser } from "react-icons/fa";
 import { BsCart2 } from "react-icons/bs";
 import { IoSearch } from "react-icons/io5";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import style from "./header.module.css";
 import {
   Drawer,
@@ -13,8 +13,11 @@ import {
 } from "@chakra-ui/react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useEffect, useState } from "react";
+import { ProductsState } from "../../Context";
 
 const Header = () => {
+  const navigate = useNavigate();
+  const { cart } = ProductsState();
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
 
@@ -28,16 +31,26 @@ const Header = () => {
     };
   }, []);
 
+  const navigateToHomePage = () => {
+    navigate("/");
+  };
+
   return (
     <>
       {screenWidth > 1024 ? (
         <header className={style.wrapper}>
-          <Image src={logo} alt="site logo" width={120} objectFit="cover" />
+          <Image
+            onClick={() => navigateToHomePage()}
+            src={logo}
+            alt="site logo"
+            width={120}
+            objectFit="cover"
+          />
           <div className={style.menubar}>
             <FaRegUser size={20} />
             <span className={style.cart}>
               <BsCart2 size={20} />
-              <span className={style.cart_amount}>0</span>
+              <span className={style.cart_amount}>{cart.length}</span>
             </span>
             <IoSearch size={20} />
           </div>
@@ -49,7 +62,13 @@ const Header = () => {
         </header>
       ) : (
         <header className={style.mobile_wrapper}>
-          <Image src={logo} alt="site logo" width={120} objectFit="cover" />
+          <Image
+            onClick={() => navigateToHomePage()}
+            src={logo}
+            alt="site logo"
+            width={120}
+            objectFit="cover"
+          />
           <div>
             <span onClick={onOpen}>
               <GiHamburgerMenu size={20} />
@@ -71,7 +90,7 @@ const Header = () => {
                   <span>Profile</span>
                   <div className={style.mobile_cart}>
                     <span>Cart</span>
-                    <span>0</span>
+                    <span>{cart.length}</span>
                   </div>
                   <span>New Arrivals</span>
                   <span>Sale</span>

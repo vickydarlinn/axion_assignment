@@ -2,11 +2,17 @@ import { Routes, Route } from "react-router-dom";
 import HomePage from "./screens/homePage";
 import SingleProductPage from "./screens/singleProductPage";
 import Layout from "./layout";
-import Header from "./components/header";
-import ProductCard from "./components/productCard";
 
 const App = () => {
-  return <HomePage />;
+  return (
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<HomePage />} />
+        <Route path="products/:id" element={<SingleProductPage />} />
+        <Route path="*" element={<h1>404 Not Found</h1>} />
+      </Route>
+    </Routes>
+  );
 };
 
 export default App;

@@ -1,0 +1,492 @@
+[
+  {
+    "id": 1,
+    "title": "Wireless Mouse",
+    "price": 25.99,
+    "product_mrp_price": 35.99,
+    "product_discounted_price": 19.99,
+    "product_images": [
+      "https://images.unsplash.com/photo-1707592691247-5c3a1c7ba0e3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8V2lyZWxlc3MlMjBNb3VzZXxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1662323861979-0538474387e3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1471174466996-0aa69dbda661?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1589416953449-2f8dac4b2239?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D"
+    ],
+    "product_description": "A comfortable and responsive wireless mouse, perfect for everyday use."
+  },
+  {
+    "id": 2,
+    "title": "Bluetooth Headphones",
+    "price": 49.99,
+    "product_mrp_price": 69.99,
+    "product_discounted_price": 39.99,
+    "product_images": [
+      "https://plus.unsplash.com/premium_photo-1681489727671-e4865915197b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Qmx1ZXRvb3RoJTIwSGVhZHBob25lc3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1664382465466-a25ce9d5fd86?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fEJsdWV0b290aCUyMEhlYWRwaG9uZXN8ZW58MHx8MHx8fDA%3D",
+      "https://plus.unsplash.com/premium_photo-1683134497648-5a6ac3287bbf?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fEJsdWV0b290aCUyMEhlYWRwaG9uZXN8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1593652501996-01c8e515345d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fEJsdWV0b290aCUyMEhlYWRwaG9uZXN8ZW58MHx8MHx8fDA%3D"
+    ],
+    "product_description": "High-quality Bluetooth headphones with noise cancellation and long battery life."
+  },
+  {
+    "id": 3,
+    "title": "Smartphone Stand",
+    "price": 15.99,
+    "product_mrp_price": 20.99,
+    "product_discounted_price": 12.99,
+    "product_images": [
+      "https://images.unsplash.com/photo-1471174466996-0aa69dbda661?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://plus.unsplash.com/premium_photo-1681489727671-e4865915197b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Qmx1ZXRvb3RoJTIwSGVhZHBob25lc3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1589416953449-2f8dac4b2239?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1662323861979-0538474387e3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D"
+    ],
+    "product_description": "Adjustable smartphone stand for hands-free viewing and video calls."
+  },
+  {
+    "id": 4,
+    "title": "USB-C Charger",
+    "price": 29.99,
+    "product_mrp_price": 39.99,
+    "product_discounted_price": 24.99,
+    "product_images": [
+      "https://images.unsplash.com/photo-1589416953449-2f8dac4b2239?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1471174466996-0aa69dbda661?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1662323861979-0538474387e3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1662323861979-0538474387e3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D"
+    ],
+    "product_description": "Fast-charging USB-C charger compatible with most modern devices."
+  },
+  {
+    "id": 5,
+    "title": "Portable SSD",
+    "price": 79.99,
+    "product_mrp_price": 99.99,
+    "product_discounted_price": 69.99,
+    "product_images": [
+      "https://images.unsplash.com/photo-1589416953449-2f8dac4b2239?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://plus.unsplash.com/premium_photo-1681489727671-e4865915197b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Qmx1ZXRvb3RoJTIwSGVhZHBob25lc3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1707592691247-5c3a1c7ba0e3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8V2lyZWxlc3MlMjBNb3VzZXxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1589416953449-2f8dac4b2239?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D"
+    ],
+    "product_description": "Compact and durable portable SSD with high-speed data transfer."
+  },
+  {
+    "id": 6,
+    "title": "Ergonomic Keyboard",
+    "price": 59.99,
+    "product_mrp_price": 79.99,
+    "product_discounted_price": 49.99,
+    "product_images": [
+      "https://images.unsplash.com/photo-1593652501996-01c8e515345d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fEJsdWV0b290aCUyMEhlYWRwaG9uZXN8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1471174466996-0aa69dbda661?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1589416953449-2f8dac4b2239?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1662323861979-0538474387e3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D"
+    ],
+    "product_description": "Ergonomic keyboard designed to reduce strain and improve typing comfort."
+  },
+  {
+    "id": 7,
+    "title": "4K Monitor",
+    "price": 299.99,
+    "product_mrp_price": 399.99,
+    "product_discounted_price": 249.99,
+    "product_images": [
+      "https://images.unsplash.com/photo-1589416953449-2f8dac4b2239?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://plus.unsplash.com/premium_photo-1681489727671-e4865915197b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Qmx1ZXRvb3RoJTIwSGVhZHBob25lc3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1589416953449-2f8dac4b2239?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1662323861979-0538474387e3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D"
+    ],
+    "product_description": "Stunning 4K monitor with vibrant colors and wide viewing angles."
+  },
+  {
+    "id": 8,
+    "title": "Mechanical Keyboard",
+    "price": 89.99,
+    "product_mrp_price": 109.99,
+    "product_discounted_price": 74.99,
+    "product_images": [
+      "https://images.unsplash.com/photo-1471174466996-0aa69dbda661?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1593652501996-01c8e515345d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fEJsdWV0b290aCUyMEhlYWRwaG9uZXN8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1707592691247-5c3a1c7ba0e3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8V2lyZWxlc3MlMjBNb3VzZXxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1662323861979-0538474387e3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D"
+    ],
+    "product_description": "Mechanical keyboard with customizable RGB lighting and tactile feedback."
+  },
+  {
+    "id": 9,
+    "title": "Gaming Mouse",
+    "price": 49.99,
+    "product_mrp_price": 59.99,
+    "product_discounted_price": 44.99,
+    "product_images": [
+      "https://plus.unsplash.com/premium_photo-1681489727671-e4865915197b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Qmx1ZXRvb3RoJTIwSGVhZHBob25lc3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1589416953449-2f8dac4b2239?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1589416953449-2f8dac4b2239?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1662323861979-0538474387e3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D"
+    ],
+    "product_description": "High-precision gaming mouse with customizable buttons and DPI settings."
+  },
+  {
+    "id": 10,
+    "title": "Noise Cancelling Headphones",
+    "price": 199.99,
+    "product_mrp_price": 249.99,
+    "product_discounted_price": 179.99,
+    "product_images": [
+      "https://images.unsplash.com/photo-1471174466996-0aa69dbda661?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1593652501996-01c8e515345d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fEJsdWV0b290aCUyMEhlYWRwaG9uZXN8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1662323861979-0538474387e3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1662323861979-0538474387e3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D"
+    ],
+    "product_description": "Premium noise cancelling headphones for immersive sound experience."
+  },
+  {
+    "id": 11,
+    "title": "Smartwatch",
+    "price": 149.99,
+    "product_mrp_price": 199.99,
+    "product_discounted_price": 129.99,
+    "product_images": [
+      "https://plus.unsplash.com/premium_photo-1681489727671-e4865915197b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Qmx1ZXRvb3RoJTIwSGVhZHBob25lc3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1707592691247-5c3a1c7ba0e3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8V2lyZWxlc3MlMjBNb3VzZXxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1589416953449-2f8dac4b2239?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1589416953449-2f8dac4b2239?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D"
+    ],
+    "product_description": "Advanced smartwatch with fitness tracking, notifications, and more."
+  },
+  {
+    "id": 12,
+    "title": "Wireless Earbuds",
+    "price": 99.99,
+    "product_mrp_price": 129.99,
+    "product_discounted_price": 89.99,
+    "product_images": [
+      "https://images.unsplash.com/photo-1471174466996-0aa69dbda661?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://example.com/images/wireless_earbuds_2.jpg",
+      "https://images.unsplash.com/photo-1662323861979-0538474387e3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1662323861979-0538474387e3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D"
+    ],
+    "product_description": "Compact wireless earbuds with high-quality sound and long battery life."
+  },
+  {
+    "id": 13,
+    "title": "Smart Thermostat",
+    "price": 199.99,
+    "product_mrp_price": 249.99,
+    "product_discounted_price": 179.99,
+    "product_images": [
+      "https://images.unsplash.com/photo-1589416953449-2f8dac4b2239?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://plus.unsplash.com/premium_photo-1681489727671-e4865915197b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Qmx1ZXRvb3RoJTIwSGVhZHBob25lc3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1589416953449-2f8dac4b2239?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1589416953449-2f8dac4b2239?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D"
+    ],
+    "product_description": "Smart thermostat with energy-saving features and remote control."
+  },
+  {
+    "id": 14,
+    "title": "Fitness Tracker",
+    "price": 49.99,
+    "product_mrp_price": 69.99,
+    "product_discounted_price": 39.99,
+    "product_images": [
+      "https://images.unsplash.com/photo-1471174466996-0aa69dbda661?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1593652501996-01c8e515345d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fEJsdWV0b290aCUyMEhlYWRwaG9uZXN8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1707592691247-5c3a1c7ba0e3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8V2lyZWxlc3MlMjBNb3VzZXxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1662323861979-0538474387e3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D"
+    ],
+    "product_description": "Lightweight fitness tracker with heart rate monitoring and activity tracking."
+  },
+  {
+    "id": 15,
+    "title": "Wireless Charger",
+    "price": 29.99,
+    "product_mrp_price": 39.99,
+    "product_discounted_price": 24.99,
+    "product_images": [
+      "https://images.unsplash.com/photo-1589416953449-2f8dac4b2239?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://plus.unsplash.com/premium_photo-1681489727671-e4865915197b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Qmx1ZXRvb3RoJTIwSGVhZHBob25lc3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1662323861979-0538474387e3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1662323861979-0538474387e3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D"
+    ],
+    "product_description": "Convenient wireless charger compatible with most smartphones."
+  },
+  {
+    "id": 16,
+    "title": "Home Security Camera",
+    "price": 99.99,
+    "product_mrp_price": 129.99,
+    "product_discounted_price": 89.99,
+    "product_images": [
+      "https://images.unsplash.com/photo-1593652501996-01c8e515345d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fEJsdWV0b290aCUyMEhlYWRwaG9uZXN8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1471174466996-0aa69dbda661?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1589416953449-2f8dac4b2239?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1662323861979-0538474387e3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D"
+    ],
+    "product_description": "HD home security camera with motion detection and night vision."
+  },
+  {
+    "id": 17,
+    "title": "Bluetooth Speaker",
+    "price": 49.99,
+    "product_mrp_price": 69.99,
+    "product_discounted_price": 39.99,
+    "product_images": [
+      "https://images.unsplash.com/photo-1589416953449-2f8dac4b2239?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://plus.unsplash.com/premium_photo-1681489727671-e4865915197b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Qmx1ZXRvb3RoJTIwSGVhZHBob25lc3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1662323861979-0538474387e3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1662323861979-0538474387e3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D"
+    ],
+    "product_description": "Portable Bluetooth speaker with powerful sound and long battery life."
+  },
+  {
+    "id": 18,
+    "title": "Digital Photo Frame",
+    "price": 89.99,
+    "product_mrp_price": 119.99,
+    "product_discounted_price": 79.99,
+    "product_images": [
+      "https://images.unsplash.com/photo-1589416953449-2f8dac4b2239?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1471174466996-0aa69dbda661?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1662323861979-0538474387e3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1662323861979-0538474387e3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D"
+    ],
+    "product_description": "Digital photo frame with high-resolution display and easy setup."
+  },
+  {
+    "id": 19,
+    "title": "Portable Projector",
+    "price": 299.99,
+    "product_mrp_price": 399.99,
+    "product_discounted_price": 269.99,
+    "product_images": [
+      "https://images.unsplash.com/photo-1589416953449-2f8dac4b2239?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://plus.unsplash.com/premium_photo-1681489727671-e4865915197b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Qmx1ZXRvb3RoJTIwSGVhZHBob25lc3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1662323861979-0538474387e3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1662323861979-0538474387e3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D"
+    ],
+    "product_description": "Compact portable projector for movies, presentations, and more."
+  },
+  {
+    "id": 20,
+    "title": "Smart Light Bulbs",
+    "price": 39.99,
+    "product_mrp_price": 49.99,
+    "product_discounted_price": 34.99,
+    "product_images": [
+      "https://images.unsplash.com/photo-1593652501996-01c8e515345d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fEJsdWV0b290aCUyMEhlYWRwaG9uZXN8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1471174466996-0aa69dbda661?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1707592691247-5c3a1c7ba0e3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8V2lyZWxlc3MlMjBNb3VzZXxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1589416953449-2f8dac4b2239?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D"
+    ],
+    "product_description": "Smart light bulbs with adjustable brightness and color control."
+  },
+  {
+    "id": 21,
+    "title": "Electric Kettle",
+    "price": 29.99,
+    "product_mrp_price": 39.99,
+    "product_discounted_price": 24.99,
+    "product_images": [
+      "https://images.unsplash.com/photo-1589416953449-2f8dac4b2239?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://plus.unsplash.com/premium_photo-1681489727671-e4865915197b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Qmx1ZXRvb3RoJTIwSGVhZHBob25lc3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1589416953449-2f8dac4b2239?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1662323861979-0538474387e3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D"
+    ],
+    "product_description": "Fast-boiling electric kettle with auto shut-off and boil-dry protection."
+  },
+  {
+    "id": 22,
+    "title": "Robot Vacuum",
+    "price": 249.99,
+    "product_mrp_price": 299.99,
+    "product_discounted_price": 229.99,
+    "product_images": [
+      "https://images.unsplash.com/photo-1471174466996-0aa69dbda661?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1593652501996-01c8e515345d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fEJsdWV0b290aCUyMEhlYWRwaG9uZXN8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1589416953449-2f8dac4b2239?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1662323861979-0538474387e3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D"
+    ],
+    "product_description": "Efficient robot vacuum with smart mapping and powerful suction."
+  },
+  {
+    "id": 23,
+    "title": "Air Purifier",
+    "price": 129.99,
+    "product_mrp_price": 159.99,
+    "product_discounted_price": 119.99,
+    "product_images": [
+      "https://images.unsplash.com/photo-1589416953449-2f8dac4b2239?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://plus.unsplash.com/premium_photo-1681489727671-e4865915197b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Qmx1ZXRvb3RoJTIwSGVhZHBob25lc3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1707592691247-5c3a1c7ba0e3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8V2lyZWxlc3MlMjBNb3VzZXxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1589416953449-2f8dac4b2239?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D"
+    ],
+    "product_description": "High-efficiency air purifier with HEPA filter for clean air."
+  },
+  {
+    "id": 24,
+    "title": "Smart Doorbell",
+    "price": 99.99,
+    "product_mrp_price": 129.99,
+    "product_discounted_price": 89.99,
+    "product_images": [
+      "https://images.unsplash.com/photo-1471174466996-0aa69dbda661?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1593652501996-01c8e515345d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fEJsdWV0b290aCUyMEhlYWRwaG9uZXN8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1589416953449-2f8dac4b2239?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1662323861979-0538474387e3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D"
+    ],
+    "product_description": "Smart doorbell with HD video, motion detection, and two-way audio."
+  },
+  {
+    "id": 25,
+    "title": "Electric Toothbrush",
+    "price": 49.99,
+    "product_mrp_price": 69.99,
+    "product_discounted_price": 44.99,
+    "product_images": [
+      "https://images.unsplash.com/photo-1707592691247-5c3a1c7ba0e3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8V2lyZWxlc3MlMjBNb3VzZXxlbnwwfHwwfHx8MA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1681489727671-e4865915197b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Qmx1ZXRvb3RoJTIwSGVhZHBob25lc3xlbnwwfHwwfHx8MA%3D%3Dg",
+      "https://images.unsplash.com/photo-1662323861979-0538474387e3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1662323861979-0538474387e3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D"
+    ],
+    "product_description": "Electric toothbrush with multiple cleaning modes and long battery life."
+  },
+  {
+    "id": 26,
+    "title": "Portable Blender",
+    "price": 29.99,
+    "product_mrp_price": 39.99,
+    "product_discounted_price": 24.99,
+    "product_images": [
+      "https://images.unsplash.com/photo-1593652501996-01c8e515345d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fEJsdWV0b290aCUyMEhlYWRwaG9uZXN8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1471174466996-0aa69dbda661?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1589416953449-2f8dac4b2239?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1662323861979-0538474387e3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D"
+    ],
+    "product_description": "Portable blender for smoothies and shakes, perfect for on-the-go use."
+  },
+  {
+    "id": 27,
+    "title": "Smart Plug",
+    "price": 19.99,
+    "product_mrp_price": 29.99,
+    "product_discounted_price": 14.99,
+    "product_images": [
+      "https://images.unsplash.com/photo-1589416953449-2f8dac4b2239?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1471174466996-0aa69dbda661?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1707592691247-5c3a1c7ba0e3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8V2lyZWxlc3MlMjBNb3VzZXxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1589416953449-2f8dac4b2239?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D"
+    ],
+    "product_description": "Smart plug for remote control of home appliances and energy monitoring."
+  },
+  {
+    "id": 28,
+    "title": "Electric Shaver",
+    "price": 59.99,
+    "product_mrp_price": 79.99,
+    "product_discounted_price": 49.99,
+    "product_images": [
+      "https://images.unsplash.com/photo-1589416953449-2f8dac4b2239?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://plus.unsplash.com/premium_photo-1681489727671-e4865915197b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Qmx1ZXRvb3RoJTIwSGVhZHBob25lc3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1593652501996-01c8e515345d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fEJsdWV0b290aCUyMEhlYWRwaG9uZXN8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1589416953449-2f8dac4b2239?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D"
+    ],
+    "product_description": "Electric shaver with precision blades and comfortable grip."
+  },
+  {
+    "id": 29,
+    "title": "Cordless Drill",
+    "price": 79.99,
+    "product_mrp_price": 99.99,
+    "product_discounted_price": 69.99,
+    "product_images": [
+      "https://images.unsplash.com/photo-1589416953449-2f8dac4b2239?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1707592691247-5c3a1c7ba0e3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8V2lyZWxlc3MlMjBNb3VzZXxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1662323861979-0538474387e3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1662323861979-0538474387e3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D"
+    ],
+    "product_description": "Powerful cordless drill with variable speed settings and LED light."
+  },
+  {
+    "id": 30,
+    "title": "Electric Pressure Cooker",
+    "price": 89.99,
+    "product_mrp_price": 119.99,
+    "product_discounted_price": 79.99,
+    "product_images": [
+      "https://images.unsplash.com/photo-1589416953449-2f8dac4b2239?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://plus.unsplash.com/premium_photo-1681489727671-e4865915197b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Qmx1ZXRvb3RoJTIwSGVhZHBob25lc3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1593652501996-01c8e515345d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fEJsdWV0b290aCUyMEhlYWRwaG9uZXN8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1589416953449-2f8dac4b2239?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D"
+    ],
+    "product_description": "Electric pressure cooker with multiple cooking functions and timer."
+  },
+  {
+    "id": 31,
+    "title": "Steam Iron",
+    "price": 29.99,
+    "product_mrp_price": 39.99,
+    "product_discounted_price": 24.99,
+    "product_images": [
+      "https://images.unsplash.com/photo-1589416953449-2f8dac4b2239?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1471174466996-0aa69dbda661?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1662323861979-0538474387e3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1662323861979-0538474387e3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D"
+    ],
+    "product_description": "Efficient steam iron with adjustable settings and anti-drip feature."
+  },
+  {
+    "id": 32,
+    "title": "Smart Scale",
+    "price": 49.99,
+    "product_mrp_price": 69.99,
+    "product_discounted_price": 39.99,
+    "product_images": [
+      "https://images.unsplash.com/photo-1707592691247-5c3a1c7ba0e3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8V2lyZWxlc3MlMjBNb3VzZXxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1593652501996-01c8e515345d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fEJsdWV0b290aCUyMEhlYWRwaG9uZXN8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1589416953449-2f8dac4b2239?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1589416953449-2f8dac4b2239?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D"
+    ],
+    "product_description": "Smart scale with body composition analysis and Bluetooth connectivity."
+  },
+  {
+    "id": 33,
+    "title": "Instant Camera",
+    "price": 69.99,
+    "product_mrp_price": 89.99,
+    "product_discounted_price": 59.99,
+    "product_images": [
+      "https://images.unsplash.com/photo-1589416953449-2f8dac4b2239?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://plus.unsplash.com/premium_photo-1681489727671-e4865915197b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Qmx1ZXRvb3RoJTIwSGVhZHBob25lc3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1662323861979-0538474387e3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1662323861979-0538474387e3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D"
+    ],
+    "product_description": "Instant camera for capturing and printing photos on the go."
+  },
+  {
+    "id": 34,
+    "title": "Video Doorbell",
+    "price": 149.99,
+    "product_mrp_price": 199.99,
+    "product_discounted_price": 129.99,
+    "product_images": [
+      "https://images.unsplash.com/photo-1593652501996-01c8e515345d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fEJsdWV0b290aCUyMEhlYWRwaG9uZXN8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1707592691247-5c3a1c7ba0e3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8V2lyZWxlc3MlMjBNb3VzZXxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1589416953449-2f8dac4b2239?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1589416953449-2f8dac4b2239?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D"
+    ],
+    "product_description": "Video doorbell with HD video, motion alerts, and two-way audio."
+  },
+  {
+    "id": 35,
+    "title": "Smart Lock",
+    "price": 199.99,
+    "product_mrp_price": 249.99,
+    "product_discounted_price": 179.99,
+    "product_images": [
+      "https://images.unsplash.com/photo-1589416953449-2f8dac4b2239?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D",
+      "https://plus.unsplash.com/premium_photo-1681489727671-e4865915197b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Qmx1ZXRvb3RoJTIwSGVhZHBob25lc3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1593652501996-01c8e515345d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fEJsdWV0b290aCUyMEhlYWRwaG9uZXN8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1589416953449-2f8dac4b2239?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fFdpcmVsZXNzJTIwTW91c2V8ZW58MHx8MHx8fDA%3D"
+    ],
+    "product_description": "Smart lock with keyless entry, remote access, and advanced security features."
+  }
+]

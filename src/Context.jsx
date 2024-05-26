@@ -6,22 +6,22 @@ export const ProductsContext = ({ children }) => {
   const [cart, setCart] = useState([]);
   const [favourites, setFavourites] = useState([]);
 
-  const addToCart = (product) => {
-    setCart([...cart, product]);
-    console.log("Added to cart");
+  const addToCart = (productId) => {
+    setCart((prev) => [...prev, productId]);
   };
-  const addToFavourites = (product) => {
-    setFavourites([...favourites, product]);
-    console.log("Added to favourites");
+
+  const addToFavourites = (productId) => {
+    setFavourites((prev) => [...prev, productId]);
   };
-  const removeFromCart = (product) => {
-    setCart(cart.filter((item) => item !== product));
-    console.log("Removed from cart");
+
+  const removeFromCart = (productId) => {
+    setCart(cart.filter((item) => item !== productId));
   };
-  const removeFromFavourites = (product) => {
-    setFavourites(favourites.filter((item) => item !== product));
-    console.log("Removed from favourites");
+
+  const removeFromFavourites = (productId) => {
+    setFavourites(favourites.filter((item) => item !== productId));
   };
+
   const contextValues = {
     cart,
     favourites,

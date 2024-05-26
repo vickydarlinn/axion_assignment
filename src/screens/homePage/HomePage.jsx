@@ -1,17 +1,14 @@
 import ProductCard from "../../components/productCard";
 import style from "./homePage.module.css";
+import data from "../../data.json";
+
 const HomePage = () => {
+  console.log(data);
   return (
     <div className={style.wrapper}>
-      <ProductCard />
-      <ProductCard />
-      <ProductCard />
-      <ProductCard />
-      <ProductCard />
-      <ProductCard />
-      <ProductCard />
-
-      <ProductCard />
+      {data.map((product) => (
+        <ProductCard key={product.id} productData={product} />
+      ))}
     </div>
   );
 };

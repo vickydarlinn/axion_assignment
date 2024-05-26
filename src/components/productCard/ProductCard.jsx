@@ -1,35 +1,104 @@
 import style from "./productCard.module.css";
-import { FaRegHeart } from "react-icons/fa6";
+import { FaRegHeart, FaHeart } from "react-icons/fa6";
+import { useToast } from "@chakra-ui/react";
 import { ProductsState } from "../../Context";
+import { Link } from "react-router-dom";
 
-const ProductCard = () => {
-  const { addToCart, addToFavourites } = ProductsState();
-  const handleAddToCart = (e) => {
-    // addToCart(e.target);
+const ProductCard = ({ productData }) => {
+  const toast = useToast();
+  const {
+    id,
+    product_discounted_price,
+    product_images,
+    product_mrp_price,
+    title,
+  } = productData;
+  const {
+    addToCart,
+    addToFavourites,
+    cart,
+    favourites,
+    removeFromCart,
+    removeFromFavourites,
+  } = ProductsState();
+
+  const isInCart = cart.includes(id);
+
+  const isInFavourites = favourites.includes(id);
+
+  const handleAddToCart = (id) => {
+    addToCart(id);
+    toast({
+      title: "Product added to cart",
+      status: "success",
+      duration: 2000,
+      isClosable: true,
+    });
   };
-  const handleAddToFavourites = (e) => {
-    // addToFavourites(e.target);
+  const handleAddToFavourites = (id) => {
+    addToFavourites(id);
+    toast({
+      title: "Product added to favourites",
+      status: "success",
+      duration: 2000,
+      isClosable: true,
+    });
+  };
+  const handleRemoveFromCart = (id) => {
+    removeFromCart(id);
+    toast({
+      title: "Product removed from cart",
+      status: "success",
+      duration: 2000,
+      isClosable: true,
+    });
+  };
+  const handleRemoveFromFavourites = (id) => {
+    removeFromFavourites(id);
+    toast({
+      title: "Product removed from favourites",
+      status: "success",
+      duration: 2000,
+      isClosable: true,
+    });
   };
 
   return (
     <div className={style.wrapper}>
-      <div className={style.image_card}>
-        <img src="https://toqri.com/wp-content/uploads/2023/12/amaze-1024x1024.png" />
-      </div>
+      <Link to={`/products/${id}`} className={style.image_card}>
+        <img src={product_images[0]} />
+      </Link>
       <div>
-        <h3 className={style.title}>Title will go here</h3>
+        <h3 className={style.title}>{title}</h3>
         <div className={style.flicker}>
           <div className={style.description}>
-            <span className={style.mrp_price}>22000</span>
-            <span className={style.discounted_price}>15000</span>
-            <span className={style.offer}>-13% Off</span>
+            <span className={style.mrp_price}>${product_mrp_price}</span>
+            <span className={style.discounted_price}>
+              ${product_discounted_price}
+            </span>
+            <span className={style.offer}>
+              -{(product_discounted_price - product_mrp_price / 100).toFixed(2)}
+              %
+            </span>
           </div>
           <div className={style.actions}>
-            <span onClick={(e) => handleAddToCart(e)}>ADD TO CART</span>
+            {isInCart ? (
+              <span onClick={() => handleRemoveFromCart(id)}>
+                ADDED TO CART
+              </span>
+            ) : (
+              <span onClick={() => handleAddToCart(id)}>ADD TO CART</span>
+            )}
             <span>QUICKVIEW</span>
-            <span onClick={(e) => handleAddToFavourites(e)}>
-              <FaRegHeart size={18} />
-            </span>
+            {isInFavourites ? (
+              <span onClick={() => handleRemoveFromFavourites(id)}>
+                <FaHeart />
+              </span>
+            ) : (
+              <span onClick={() => handleAddToFavourites(id)}>
+                <FaRegHeart />
+              </span>
+            )}
           </div>
         </div>
       </div>
