@@ -1,5 +1,5 @@
-/* eslint-disable react/prop-types */
 import { createContext, useContext, useState } from "react";
+
 export const ProductsInfo = createContext();
 
 export const ProductsContext = ({ children }) => {
@@ -7,19 +7,54 @@ export const ProductsContext = ({ children }) => {
   const [favourites, setFavourites] = useState([]);
 
   const addToCart = (productId) => {
-    setCart((prev) => [...prev, productId]);
-  };
-
-  const addToFavourites = (productId) => {
-    setFavourites((prev) => [...prev, productId]);
+    setCart((prevCart) => {
+      const existingProduct = prevCart.find((item) => item.id === productId);
+      if (existingProduct) {
+        return prevCart.map((item) =>
+          item.id === productId
+            ? { ...item, quantity: item.quantity + 1 }
+            : item
+        );
+      } else {
+        return [...prevCart, { id: productId, quantity: 1 }];
+      }
+    });
   };
 
   const removeFromCart = (productId) => {
-    setCart(cart.filter((item) => item !== productId));
+    setCart((prevCart) => {
+      const existingProduct = prevCart.find((item) => item.id === productId);
+      if (existingProduct.quantity > 1) {
+        return prevCart.map((item) =>
+          item.id === productId
+            ? { ...item, quantity: item.quantity - 1 }
+            : item
+        );
+      } else {
+        return prevCart.filter((item) => item.id !== productId);
+      }
+    });
+  };
+
+  const removeAllFromCart = (productId) => {
+    setCart((prevCart) => {
+      return prevCart.filter((item) => item.id !== productId);
+    });
+  };
+
+  const addToFavourites = (productId) => {
+    setFavourites((prevFavourites) => {
+      if (!prevFavourites.includes(productId)) {
+        return [...prevFavourites, productId];
+      }
+      return prevFavourites;
+    });
   };
 
   const removeFromFavourites = (productId) => {
-    setFavourites(favourites.filter((item) => item !== productId));
+    setFavourites((prevFavourites) =>
+      prevFavourites.filter((item) => item !== productId)
+    );
   };
 
   const contextValues = {
@@ -29,6 +64,7 @@ export const ProductsContext = ({ children }) => {
     addToFavourites,
     removeFromCart,
     removeFromFavourites,
+    removeAllFromCart,
   };
 
   return (

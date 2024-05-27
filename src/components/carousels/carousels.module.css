@@ -30,3 +30,9 @@
 .arrow_right {
   right: 1rem;
 }
+
+@media all and (max-width: 900px) {
+  .image_card {
+    width: 100%;
+  }
+}

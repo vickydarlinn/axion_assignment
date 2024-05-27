@@ -18,12 +18,11 @@ const ProductCard = ({ productData }) => {
     addToFavourites,
     cart,
     favourites,
-    removeFromCart,
+    removeAllFromCart,
     removeFromFavourites,
   } = ProductsState();
 
-  const isInCart = cart.includes(id);
-
+  const isInCart = cart.some((item) => item.id === id);
   const isInFavourites = favourites.includes(id);
 
   const handleAddToCart = (id) => {
@@ -35,6 +34,7 @@ const ProductCard = ({ productData }) => {
       isClosable: true,
     });
   };
+
   const handleAddToFavourites = (id) => {
     addToFavourites(id);
     toast({
@@ -44,8 +44,9 @@ const ProductCard = ({ productData }) => {
       isClosable: true,
     });
   };
+
   const handleRemoveFromCart = (id) => {
-    removeFromCart(id);
+    removeAllFromCart(id);
     toast({
       title: "Product removed from cart",
       status: "success",
@@ -53,6 +54,7 @@ const ProductCard = ({ productData }) => {
       isClosable: true,
     });
   };
+
   const handleRemoveFromFavourites = (id) => {
     removeFromFavourites(id);
     toast({
@@ -77,7 +79,12 @@ const ProductCard = ({ productData }) => {
               ${product_discounted_price}
             </span>
             <span className={style.offer}>
-              -{(product_discounted_price - product_mrp_price / 100).toFixed(2)}
+              -
+              {(
+                ((product_mrp_price - product_discounted_price) /
+                  product_mrp_price) *
+                100
+              ).toFixed(2)}
               %
             </span>
           </div>
