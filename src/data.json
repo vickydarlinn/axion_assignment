@@ -2,6 +2,7 @@
   {
     "id": 1,
     "title": "Wireless Mouse",
+    "type": "Chair",
     "price": 25.99,
     "product_mrp_price": 35.99,
     "product_discounted_price": 19.99,
@@ -16,6 +17,7 @@
   {
     "id": 2,
     "title": "Bluetooth Headphones",
+    "type": "Chair",
     "price": 49.99,
     "product_mrp_price": 69.99,
     "product_discounted_price": 39.99,
@@ -30,6 +32,7 @@
   {
     "id": 3,
     "title": "Smartphone Stand",
+    "type": "Chair",
     "price": 15.99,
     "product_mrp_price": 20.99,
     "product_discounted_price": 12.99,
@@ -44,6 +47,7 @@
   {
     "id": 4,
     "title": "USB-C Charger",
+    "type": "Chair",
     "price": 29.99,
     "product_mrp_price": 39.99,
     "product_discounted_price": 24.99,
@@ -58,6 +62,7 @@
   {
     "id": 5,
     "title": "Portable SSD",
+    "type": "Table",
     "price": 79.99,
     "product_mrp_price": 99.99,
     "product_discounted_price": 69.99,
@@ -72,6 +77,7 @@
   {
     "id": 6,
     "title": "Ergonomic Keyboard",
+    "type": "Chair",
     "price": 59.99,
     "product_mrp_price": 79.99,
     "product_discounted_price": 49.99,
@@ -86,6 +92,7 @@
   {
     "id": 7,
     "title": "4K Monitor",
+    "type": "Chair",
     "price": 299.99,
     "product_mrp_price": 399.99,
     "product_discounted_price": 249.99,
@@ -100,6 +107,7 @@
   {
     "id": 8,
     "title": "Mechanical Keyboard",
+    "type": "Chair",
     "price": 89.99,
     "product_mrp_price": 109.99,
     "product_discounted_price": 74.99,
@@ -114,6 +122,7 @@
   {
     "id": 9,
     "title": "Gaming Mouse",
+    "type": "Table",
     "price": 49.99,
     "product_mrp_price": 59.99,
     "product_discounted_price": 44.99,
@@ -128,6 +137,7 @@
   {
     "id": 10,
     "title": "Noise Cancelling Headphones",
+    "type": "Chair",
     "price": 199.99,
     "product_mrp_price": 249.99,
     "product_discounted_price": 179.99,
@@ -142,6 +152,7 @@
   {
     "id": 11,
     "title": "Smartwatch",
+    "type": "Chair",
     "price": 149.99,
     "product_mrp_price": 199.99,
     "product_discounted_price": 129.99,
@@ -156,6 +167,7 @@
   {
     "id": 12,
     "title": "Wireless Earbuds",
+    "type": "Chair",
     "price": 99.99,
     "product_mrp_price": 129.99,
     "product_discounted_price": 89.99,
@@ -170,6 +182,7 @@
   {
     "id": 13,
     "title": "Smart Thermostat",
+    "type": "Table",
     "price": 199.99,
     "product_mrp_price": 249.99,
     "product_discounted_price": 179.99,
@@ -184,6 +197,7 @@
   {
     "id": 14,
     "title": "Fitness Tracker",
+    "type": "Chair",
     "price": 49.99,
     "product_mrp_price": 69.99,
     "product_discounted_price": 39.99,
@@ -198,6 +212,7 @@
   {
     "id": 15,
     "title": "Wireless Charger",
+    "type": "Chair",
     "price": 29.99,
     "product_mrp_price": 39.99,
     "product_discounted_price": 24.99,
@@ -212,6 +227,7 @@
   {
     "id": 16,
     "title": "Home Security Camera",
+    "type": "Chair",
     "price": 99.99,
     "product_mrp_price": 129.99,
     "product_discounted_price": 89.99,
@@ -226,6 +242,7 @@
   {
     "id": 17,
     "title": "Bluetooth Speaker",
+    "type": "Table",
     "price": 49.99,
     "product_mrp_price": 69.99,
     "product_discounted_price": 39.99,
@@ -240,6 +257,7 @@
   {
     "id": 18,
     "title": "Digital Photo Frame",
+    "type": "Chair",
     "price": 89.99,
     "product_mrp_price": 119.99,
     "product_discounted_price": 79.99,
@@ -254,6 +272,7 @@
   {
     "id": 19,
     "title": "Portable Projector",
+    "type": "Chair",
     "price": 299.99,
     "product_mrp_price": 399.99,
     "product_discounted_price": 269.99,
@@ -268,6 +287,7 @@
   {
     "id": 20,
     "title": "Smart Light Bulbs",
+    "type": "Chair",
     "price": 39.99,
     "product_mrp_price": 49.99,
     "product_discounted_price": 34.99,
@@ -282,6 +302,7 @@
   {
     "id": 21,
     "title": "Electric Kettle",
+    "type": "Table",
     "price": 29.99,
     "product_mrp_price": 39.99,
     "product_discounted_price": 24.99,
@@ -296,6 +317,7 @@
   {
     "id": 22,
     "title": "Robot Vacuum",
+    "type": "Chair",
     "price": 249.99,
     "product_mrp_price": 299.99,
     "product_discounted_price": 229.99,
@@ -310,6 +332,7 @@
   {
     "id": 23,
     "title": "Air Purifier",
+    "type": "Chair",
     "price": 129.99,
     "product_mrp_price": 159.99,
     "product_discounted_price": 119.99,
@@ -324,6 +347,7 @@
   {
     "id": 24,
     "title": "Smart Doorbell",
+    "type": "Storage",
     "price": 99.99,
     "product_mrp_price": 129.99,
     "product_discounted_price": 89.99,
@@ -338,6 +362,7 @@
   {
     "id": 25,
     "title": "Electric Toothbrush",
+    "type": "Chair",
     "price": 49.99,
     "product_mrp_price": 69.99,
     "product_discounted_price": 44.99,
@@ -352,6 +377,7 @@
   {
     "id": 26,
     "title": "Portable Blender",
+    "type": "Chair",
     "price": 29.99,
     "product_mrp_price": 39.99,
     "product_discounted_price": 24.99,
@@ -366,6 +392,7 @@
   {
     "id": 27,
     "title": "Smart Plug",
+    "type": "Storage",
     "price": 19.99,
     "product_mrp_price": 29.99,
     "product_discounted_price": 14.99,
@@ -380,6 +407,7 @@
   {
     "id": 28,
     "title": "Electric Shaver",
+    "type": "Chair",
     "price": 59.99,
     "product_mrp_price": 79.99,
     "product_discounted_price": 49.99,
@@ -394,6 +422,7 @@
   {
     "id": 29,
     "title": "Cordless Drill",
+    "type": "Chair",
     "price": 79.99,
     "product_mrp_price": 99.99,
     "product_discounted_price": 69.99,
@@ -408,6 +437,7 @@
   {
     "id": 30,
     "title": "Electric Pressure Cooker",
+    "type": "Storage",
     "price": 89.99,
     "product_mrp_price": 119.99,
     "product_discounted_price": 79.99,
@@ -422,6 +452,7 @@
   {
     "id": 31,
     "title": "Steam Iron",
+    "type": "Chair",
     "price": 29.99,
     "product_mrp_price": 39.99,
     "product_discounted_price": 24.99,
@@ -436,6 +467,7 @@
   {
     "id": 32,
     "title": "Smart Scale",
+    "type": "Chair",
     "price": 49.99,
     "product_mrp_price": 69.99,
     "product_discounted_price": 39.99,
@@ -450,6 +482,7 @@
   {
     "id": 33,
     "title": "Instant Camera",
+    "type": "Storage",
     "price": 69.99,
     "product_mrp_price": 89.99,
     "product_discounted_price": 59.99,
@@ -464,6 +497,7 @@
   {
     "id": 34,
     "title": "Video Doorbell",
+    "type": "Chair",
     "price": 149.99,
     "product_mrp_price": 199.99,
     "product_discounted_price": 129.99,
@@ -478,6 +512,7 @@
   {
     "id": 35,
     "title": "Smart Lock",
+    "type": "Chair",
     "price": 199.99,
     "product_mrp_price": 249.99,
     "product_discounted_price": 179.99,
